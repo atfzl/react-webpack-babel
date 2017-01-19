@@ -1,3 +1,5 @@
+/* eslint-disable import/no-extraneous-dependencies, global-require */
+
 const AUTOPREFIXER_BROWSERS = [
   'Android 2.3',
   'Android >= 4',
@@ -10,7 +12,7 @@ const AUTOPREFIXER_BROWSERS = [
 ];
 
 module.exports = {
-	plugins: [
-		require('autoprefixer')({ browsers: AUTOPREFIXER_BROWSERS })
-	]
-}
+  plugins: [
+    require('autoprefixer')({ browsers: AUTOPREFIXER_BROWSERS }),
+  ],
+};
