@@ -1,0 +1,10 @@
+[include]
+src/
+
+[version]
+^0.38.0
+
+[options]
+module.name_mapper='.*\(.scss\)' -> 'empty/object'
+esproposal.class_static_fields=enable
+esproposal.class_instance_fields=enable
