@@ -11,11 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alicoding/react-webpack-babel"
+    "url": "https://github.com/atfzl/react-webpack-babel"
   },
-  "author": "Ali Al Dallal",
+  "author": "Atif Afzal",
   "license": "MIT",
-  "homepage": "https://github.com/alicoding/react-webpack-babel#readme",
   "dependencies": {
     "node-sass": "^4.2.0",
     "react": "15.4.2",
